@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap');
+@import 'sections/base.css';
+@import 'sections/header/header.css';
+@import 'sections/welcome/welcome.css';
+@import 'sections/tours/tours.css';
+@import 'sections/footer/footer.css';
+@import 'user/login.css';
+@import 'admin/dashboard.css';
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    direction: ltr;
+}
+:root{
+    --primary: #0971e7;
+    --on-primary: #ffffff;
+    --primary-container: #005ac3;
+    --on-primary-container: #001a43;
+    --secondary: #565e71;
+    --on-secondary: #ffffff;
+    --secondary-container: #565e71;
+    --on-secondary-container: #131b2c;
+    --tertiary: #715574;
+    --on-tertiary: #ffffff;
+    --tertiary-container: #715574;
+    --on-tertiary-container: #29132d;
+    --error: #eb2929;
+    --on-error: #ffffff;
+    --error-container: #ba1b1b;
+    --on-error-container: #410001;
+    --background: #fdfbff;
+    --on-background: #1b1b1d;
+    --surface: #fdfbff;
+    --on-surface: #1b1b1d;
+    --outline: #74777f;
+    --surface-variant: #e1e2ec;
+    --on-surface-variant: #44474f;
+    --inverse-surface: #2f3033;
+    --inverse-on-surface: #f2f0f4;
+    --primary-hover:#0971e70c;
+    --outline-hover:#0076fd;
+}
+
+  

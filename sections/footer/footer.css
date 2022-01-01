@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--inverse-surface);
+    color: var(--inverse-on-surface);
+    margin-top: 10px;
+    direction: rtl;
+    text-align: center;
+    height: auto;
+    padding: 10px 0;
+    font-family: 'Markazi Text', serif;
+    line-height: 25px;
+}
+.footer__social a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 7px;
+}
+.footer__title{
+    font-weight: 550;
+}

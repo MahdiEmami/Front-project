@@ -1,0 +1,15 @@
+.tours{
+    margin-top: 20px;
+}
+.tours__container{
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--on-surface);
+}
+.tours__title{
+    text-align: center;
+    font-size: x-large;
+    color: inherit;
+    font-weight: 520;
+
+}

@@ -1,0 +1,20 @@
+<?php
+session_start();
+if(!isset($_SESSION['admin-login'])){
+    session_destroy();
+    header("location:index.php");
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <aside>
+    <h1>welcome back admin</h1>
+    </aside>
+</body>
+</html>
